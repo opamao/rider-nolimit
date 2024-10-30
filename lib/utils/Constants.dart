@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 // import 'package:mqtt_client/mqtt_server_client.dart';
 import 'images.dart';
 
@@ -6,15 +7,14 @@ import 'images.dart';
 const mAppName = 'Nolimit';
 //endregion
 
-
 // region Google map key
- const GOOGLE_MAP_API_KEY = 'AIzaSyCg4TXDHvOmIZKf2iFfOnypmRy_831JryY';
+const GOOGLE_MAP_API_KEY = 'AIzaSyCg4TXDHvOmIZKf2iFfOnypmRy_831JryY';
 //endregion
 
 //region DomainUrl
-const DOMAIN_URL = 'https://vtc-gestion.sodalite-consulting.com'; // Don't add slash at the end of the url
+const DOMAIN_URL =
+    'https://vtc-gestion.sodalite-consulting.com'; // Don't add slash at the end of the url
 //endregion
-
 
 //region OneSignal Keys
 //You have to generate 2 onesignal account one for rider and one for driver
@@ -27,12 +27,12 @@ const mOneSignalRestKeyRider = 'ADD YOUR RIDER REST API KEY';
 
 //region Currency & country code
 const currencySymbol = '\$';
-const currencyNameConst = 'usd';
-const defaultCountryCode = '+91';
-const defaultCountry = 'IN';
+const currencyNameConst = 'xof';
+const defaultCountryCode = '+225';
+const defaultCountry = 'CI';
 const digitAfterDecimal = 2;
 
-const defaultLanguage = 'en';
+const defaultLanguage = 'fr';
 //endregion
 
 //region top up default value
@@ -40,22 +40,25 @@ const PRESENT_TOP_UP_AMOUNT_CONST = '10|20|30';
 //endregion
 
 //region PDF configuration
-const PDF_NAME = 'Mighty Taxi  Private Limited';
-const PDF_ADDRESS = 'Sarah Street 9, Beijing, Ahmedabad';
-const PDF_CONTACT_NUMBER = '+91 8888888888';
+const PDF_NAME = 'Nolimit Private Limited';
+const PDF_ADDRESS = 'Marcory résidentiel, pharmacie des lagunes';
+const PDF_CONTACT_NUMBER = '+225 0585831647';
 //endregion
 
 //region walkthrough text
-const walkthrough_title_1 = 'Select your Ride';
-const walkthrough_subtitle_1 = 'Request a ride get picked up by\na nearby community driver';
+const walkthrough_title_1 = 'Sélectionnez votre trajet';
+const walkthrough_subtitle_1 =
+    'Demander à être pris en charge par un \nchauffeur de la communauté voisine';
 const walkthrough_image_1 = ic_walk1;
 
-const walkthrough_title_2 = 'Navigating Your Ride';
-const walkthrough_subtitle_2 = "Seamless Travel, Smart Choices\nStress-Free Journeys";
+const walkthrough_title_2 = 'Naviguer en voiture';
+const walkthrough_subtitle_2 =
+    "Des voyages en toute transparence, des choix \nintelligents, des déplacements sans stress";
 const walkthrough_image_2 = ic_walk2;
 
-const walkthrough_title_3 = 'Track your Ride';
-const walkthrough_subtitle_3 = "Know your Service and be able to view\ncurrent location in real time on the map";
+const walkthrough_title_3 = 'Suivez votre trajet';
+const walkthrough_subtitle_3 =
+    "Connaître son service et pouvoir visualiser sa \nposition actuelle en temps réel sur la carte";
 const walkthrough_image_3 = ic_walk3;
 //endregion
 
@@ -200,8 +203,10 @@ const CLOCK = 'clock';
 const PRESENT_TOPUP_AMOUNT = 'preset_topup_amount';
 const PRESENT_TIP_AMOUNT = 'preset_tip_amount';
 const RIDE_FOR_OTHER = 'RIDE_FOR_OTHER';
-const MAX_TIME_FOR_RIDER_MINUTE = 'max_time_for_find_drivers_for_regular_ride_in_minute';
-const MAX_TIME_FOR_DRIVER_SECOND = 'ride_accept_decline_duration_for_driver_in_second';
+const MAX_TIME_FOR_RIDER_MINUTE =
+    'max_time_for_find_drivers_for_regular_ride_in_minute';
+const MAX_TIME_FOR_DRIVER_SECOND =
+    'ride_accept_decline_duration_for_driver_in_second';
 const MIN_AMOUNT_TO_ADD = 'min_amount_to_add';
 const MAX_AMOUNT_TO_ADD = 'max_amount_to_add';
 //endregion
@@ -212,7 +217,7 @@ const RIDE_CHAT = "ride_chat";
 const USER_COLLECTION = "users";
 const CONTACT_COLLECTION = "contact";
 const CHAT_DATA_IMAGES = "chatImages";
-const RIDE_COLLECTION='rides';
+const RIDE_COLLECTION = 'rides';
 //endregion
 
 const IS_ENTER_KEY = "IS_ENTER_KEY";
@@ -266,4 +271,4 @@ var errorSomethingWentWrong = 'Something Went Wrong';
 
 var demoEmail = 'joy58@gmail.com';
 const mRazorDescription = 'Nolimit';
-const mStripeIdentifier = 'IN';
+const mStripeIdentifier = 'CI';
