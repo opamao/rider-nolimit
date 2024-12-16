@@ -18,11 +18,11 @@ const DOMAIN_URL =
 
 //region OneSignal Keys
 //You have to generate 2 onesignal account one for rider and one for driver
-const mOneSignalAppIdDriver = 'ADD YOUR DRIVER APP KEY';
-const mOneSignalRestKeyDriver = 'ADD YOUR DRIVER REST API KEY';
+const mOneSignalAppIdDriver = '661c57bf-7086-4233-8027-e821fd4379a1';
+const mOneSignalRestKeyDriver = 'os_v2_app_myofpp3qqzbdhabh5aq72q3zufkzzcuflaeufynhv5rwpbb3vd5gfx5k7wgu2wg2th5w63hm6qjbw5v3xncppsxff2nh4d5pazfuufa';
 
-const mOneSignalAppIdRider = 'ADD YOUR RIDER APP KEY';
-const mOneSignalRestKeyRider = 'ADD YOUR RIDER REST API KEY';
+const mOneSignalAppIdRider = '26e75001-9ee6-4b66-980d-ea1b80e4b154';
+const mOneSignalRestKeyRider = 'os_v2_app_e3tvaam64zfwngan5inybzfrksi5rqcktewukvv5whm3nhgtdqokujpazdwrz75lmoqkxwvppuhed73qeak5jb2qg7ym5zaa4jolz2i';
 //endregion
 
 //region Currency & country code
