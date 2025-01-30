@@ -16,6 +16,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
     tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
         kotlinOptions {

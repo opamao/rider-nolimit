@@ -35,8 +35,9 @@ if (flutterVersionName == null) {
 //apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 34
-    ndkVersion flutter.ndkVersion
+    namespace 'com.yapi.nolimitrider'
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion = "27.0.12077973"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -44,15 +45,17 @@ android {
 
     defaultConfig {
         applicationId "com.yapi.nolimitrider"
-        minSdkVersion 23
-        targetSdkVersion 34
-        versionCode 1
-        versionName '1.0.0'
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
     }
 
     buildTypes {
         release {
             signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
         }
     }
 
@@ -70,7 +73,6 @@ android {
             useLegacyPackaging true
         }
     }
-    namespace 'com.mighty.taxirider'
 }
 
 flutter {
@@ -86,8 +88,8 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
 
 //    implementation 'com.mercadopago.android.px:checkout:4.+'
-    implementation('com.braintreepayments.api:drop-in:5.2.1') {
-        exclude group: "org.jfrog.cardinalcommerce.gradle", module: "cardinalmobilesdk"
-    }
-    implementation("org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2")
+  //  implementation('com.braintreepayments.api:drop-in:5.2.1') {
+   //     exclude group: "org.jfrog.cardinalcommerce.gradle", module: "cardinalmobilesdk"
+   // }
+  //  implementation("org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2")
 }

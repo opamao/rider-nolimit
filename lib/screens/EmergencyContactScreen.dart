@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_native_contact_picker/flutter_native_contact_picker.dart';
+import 'package:flutter_native_contact_picker/model/contact.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import '../main.dart';
 import '../utils/Colors.dart';
@@ -20,7 +21,7 @@ class EmergencyContactScreen extends StatefulWidget {
 class EmergencyContactScreenState extends State<EmergencyContactScreen> {
   ScrollController scrollController = ScrollController();
 
-  final FlutterContactPicker _contactPicker = new FlutterContactPicker();
+  final FlutterNativeContactPicker _contactPicker = new FlutterNativeContactPicker();
   Contact? _contact;
 
   int page = 1;
