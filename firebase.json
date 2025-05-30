@@ -1,1 +1,31 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"vtc-gestion","appId":"1:581142763635:android:a26f84e3bea7a2907b3206","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"vtc-gestion","appId":"1:581142763635:ios:1410922adbfd62987b3206","uploadDebugSymbols":true,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"vtc-gestion","configurations":{"android":"1:581142763635:android:a26f84e3bea7a2907b3206","ios":"1:581142763635:ios:1410922adbfd62987b3206","web":"1:581142763635:web:4e5a9c445cf06d227b3206"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "vtc-gestion",
+          "appId": "1:581142763635:android:a26f84e3bea7a2907b3206",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "vtc-gestion",
+          "appId": "1:581142763635:ios:1410922adbfd62987b3206",
+          "uploadDebugSymbols": true,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "vtc-gestion",
+          "configurations": {
+            "android": "1:581142763635:android:a26f84e3bea7a2907b3206",
+            "ios": "1:581142763635:ios:1410922adbfd62987b3206",
+            "web": "1:581142763635:web:4e5a9c445cf06d227b3206"
+          }
+        }
+      }
+    }
+  }
+}

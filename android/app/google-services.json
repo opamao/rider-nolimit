@@ -3,9 +3,45 @@
     "project_number": "581142763635",
     "firebase_url": "https://vtc-gestion-default-rtdb.firebaseio.com",
     "project_id": "vtc-gestion",
-    "storage_bucket": "vtc-gestion.appspot.com"
+    "storage_bucket": "vtc-gestion.firebasestorage.app"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581142763635:android:fd6815ef939281847b3206",
+        "android_client_info": {
+          "package_name": "com.yapi.nolimitdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581142763635-7lbjjlp8c33hm1hnd32aplpjmfhu76rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBe3v56SV3EVbukTuFgOyIX2Ue8h0RbjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581142763635-7lbjjlp8c33hm1hnd32aplpjmfhu76rb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581142763635-oti2caoq8o994vtk5g4grh9gjk5ekj6j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yapi.nolimitrider"
+              }
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:581142763635:android:a26f84e3bea7a2907b3206",
@@ -20,14 +56,6 @@
           "android_info": {
             "package_name": "com.yapi.nolimitrider",
             "certificate_hash": "8dffbb31eda2d9ac0fcc2a48354c4d6ca8297725"
-          }
-        },
-        {
-          "client_id": "581142763635-rf3g0cndhr3g72iovtq6hrdmff8g5dkn.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.yapi.nolimitrider",
-            "certificate_hash": "97f68cda344fc792d4efee37e40c88043b2756e0"
           }
         },
         {
